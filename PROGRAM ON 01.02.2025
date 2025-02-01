@@ -27,8 +27,8 @@ int main()
     printf("tax=%d\n",k);
     l=k+j;
     printf("the total amount of all items with tax=%d",l);
-    
 }
+
 OUTPUT:-
 price of 1kg rice=80
 The weight of the rice=50
