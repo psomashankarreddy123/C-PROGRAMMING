@@ -1,0 +1,46 @@
+INPUT:-
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,g,h,i,j,k,l;
+    printf("price of 1kg rice=");
+    scanf("%d",&a);
+    printf("The weight of the rice=");
+    scanf("%d",&b);
+    c=a*b;
+    printf("the price of 50kg rice=%d\n",c);
+    printf("price of 1kg sugar=");
+    scanf("%d",&d);
+    printf("The weight of the sugar=");
+    scanf("%d",&e);
+    f=d*e;
+    printf("the price of the 15kg sugar=%d\n",f);
+    printf("the price of the oil=");
+    scanf("%d",&g);
+    printf("The weight of the oil=");
+    scanf("%d",&h);
+    i=g*h;
+    printf("the price of the 12kg oil=%d\n",i);
+    j=(c+f+i);
+    printf("the total amount without tax=%d\n",j);
+    k=j*0.05;
+    printf("tax=%d\n",k);
+    l=k+j;
+    printf("the total amount of all items with tax=%d",l);
+    
+}
+OUTPUT:-
+price of 1kg rice=80
+The weight of the rice=50
+the price of 50kg rice=4000
+price of 1kg sugar=35
+The weight of the sugar=15
+the price of the 15kg sugar=525
+the price of the oil=154
+The weight of the oil=12
+the price of the 12kg oil=1848
+the total amount without tax=6373
+tax=318
+the total amount of all items with tax=6691
+
+=== Code Execution Successful ===
