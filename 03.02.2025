@@ -1,0 +1,23 @@
+INPUT:-
+#include<stdio.h>
+int main ()
+{
+    int a,b,c;
+    printf("1 USD =₹83\n");
+    printf("The person have amount in usd=");
+    scanf("%d",&a);
+    printf("The person had to covert an amount usd into inr=100usd\n");
+    printf("The value of 1usd =₹");
+    scanf("%d",&b);
+    c=a*b;
+    printf("The amount after converting usd into inr=₹%d",c);
+    return 0;
+}
+OUTPUT:-
+1 USD =₹83
+The person have amount in usd=100
+The person had to covert an amount usd into inr=100usd
+The value of 1usd =₹83
+The amount after converting usd into inr=₹8300
+
+=== Code Execution Successful ===
