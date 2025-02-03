@@ -21,3 +21,35 @@ The value of 1usd =₹83
 The amount after converting usd into inr=₹8300
 
 === Code Execution Successful ===
+
+
+INPUT:-
+#include<stdio.h>
+int main ()
+{
+    int a=5000,b=2000,c,d=700,e=300,f=500,g,h;
+    printf("The initial amount in account =₹%d\n",a);
+    printf("The person deposited an amount =₹%d\n",b);
+    c=a+b;
+    printf("The available balance after deposited =₹%d\n",c);
+    printf("The person as withdral amount at first time =₹%d\n",d);
+    printf("The person as withdral amount at second time =₹%d\n",e);
+    printf("The person as withdral amount at third time =₹%d\n",f);
+    g=(d+e+f);
+    printf("The total withdral amount =₹%d\n",g);
+    h=c-g;
+    printf("The total withdral amount =₹%d",h);
+    
+    return 0;
+}
+OUTPUT:-
+The initial amount in account =₹5000
+The person deposited an amount =₹2000
+The available balance after deposited =₹7000
+The person as withdral amount at first time =₹700
+The person as withdral amount at second time =₹300
+The person as withdral amount at third time =₹500
+The total withdral amount =₹1500
+The total withdral amount =₹5500
+
+=== Code Execution Successful ===
