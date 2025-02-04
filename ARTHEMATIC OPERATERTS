@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int a =8,b=8;
+    printf("a = b : %d\n", a = b);
+    printf("a+=b  : %d\n", a+=b);
+    printf("a-=b  : %d\n",a-=b);
+    printf("a*=b  : %d\n", a*=b);
+    printf("a/=b  : %d\n", a/=b);
+    printf("a%=b  : %d\n", a%=b);
+    return 0;
+}
+
+
+a = b : 8
+a+=b  : 16
+a-=b  : 8
+a*=b  : 64
+a/=b  : 8
+a%=b  : 0
+
+
+=== Code Execution Successful ===
