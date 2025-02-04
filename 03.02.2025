@@ -1,3 +1,4 @@
+QUSTION NO.1
 INPUT:-
 #include<stdio.h>
 int main ()
@@ -23,6 +24,7 @@ The amount after converting usd into inr=₹8300
 === Code Execution Successful ===
 
 
+QUSTION NO.2
 INPUT:-
 #include<stdio.h>
 int main ()
