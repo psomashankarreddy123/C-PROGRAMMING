@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("The integer = ");
+    scanf("%d",&a);
+    if (a%2==0)
+    {
+        printf("The given integer is even ");
+    }
+   else 
+    {
+        printf("The given integer is odd ");
+    }
+    return 0;
+}
+
+
+
+The integer = 654
+The given integer is even 
+
+=== Code Execution Successful ===
