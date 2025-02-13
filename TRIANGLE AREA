@@ -1,1 +1,20 @@
+#include<stdio.h>
+int main ()
+{
+    float h,b,A;
+    printf("The height of the triangle is =");
+    scanf("%f",&h);
+    printf("The base of the triangle is =");
+    scanf("%f",&b);
+    A=0.5*(h*b);
+    printf("The area of the triangle is : %.2f\n",A);
+    return 0; 
+}
 
+
+The height of the triangle is =11.2
+The base of the triangle is =5.6
+The area of the triangle is : 31.36
+
+
+=== Code Execution Successful ===
