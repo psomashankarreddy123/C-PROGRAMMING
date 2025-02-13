@@ -1,1 +1,41 @@
+AREA OF CIRCLE :-
+#include<stdio.h>
+int main ()
+{
+    float r,A;
+    printf("The radius of circle is =");
+    scanf("%f",&r);
+    A=3.14*(r*r);
+    printf("The area of the circle is : %.2f",A);
 
+    return 0; 
+}
+
+
+
+The radius of circle is =5.2
+The area of the circle is : 84.91
+
+=== Code Execution Successful ===
+
+
+
+CIRCUMFRERREXCE OF CIRCLE :-
+
+#include<stdio.h>
+int main ()
+{
+    float r,A;
+    printf("The radius of circle is =");
+    scanf("%f",&r);
+    A=3.14*(2*r);
+    printf("The circumference  of the circle is : %.2f",A);
+
+    return 0; 
+}
+
+
+The radius of circle is =10.2
+The circumference  of the circle is : 64.06
+
+=== Code Execution Successful ===
