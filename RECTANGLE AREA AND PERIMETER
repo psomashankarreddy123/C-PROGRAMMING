@@ -1,1 +1,22 @@
+#include<stdio.h>
+int main ()
+{
+    float l,b,A,P;
+    printf("The breadth of the rectangle  is =");
+    scanf("%f",&b);
+    printf("The length of the rectangle is =");
+    scanf("%f",&l);
+    A=(l*b);
+    P=2*(l+b);
+    printf("The area of the rectangle is : %.2f\n",A);
+    printf("The perimeter of the rectangle is : %.2f",P);
+    return 0; 
+}
 
+
+The breadth of the rectangle  is =6.5
+The length of the rectangle is =7.2
+The area of the rectangle is : 46.80
+The perimeter of the rectangle is : 27.40
+
+=== Code Execution Successful ===
