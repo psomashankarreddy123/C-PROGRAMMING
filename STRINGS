@@ -10,3 +10,22 @@ P SOMA SHNAKAR REDDY
 
 
 === Code Execution Successful ===
+
+BY USING FGETS AND PUTS
+#include <stdio.h>
+int main()
+{
+    char name[30];
+    printf("Enter name: ");
+    fgets(name, sizeof(name), stdin);  
+    printf("Name: ");
+    puts(name);    
+    return 0;
+}
+
+Enter name: P SOMA SHNAKR REDDY
+Name: P SOMA SHNAKR REDDY
+
+
+
+=== Code Execution Successful ===
