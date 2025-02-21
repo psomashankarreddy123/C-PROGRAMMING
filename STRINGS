@@ -29,3 +29,56 @@ Name: P SOMA SHNAKR REDDY
 
 
 === Code Execution Successful ===
+    
+
+LENGTH OF THE STRING 
+
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char A[30]=" P SOMA SHNAKAR REDDY";
+   
+    printf("Lenth of the string A=%d\n",strlen(A));
+    return 0;
+}
+
+Lenth of the string A=21
+
+
+=== Code Execution Successful ===
+
+STRING COPY:-
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char A[30]="P SOMA SHNAKR REDDY";
+    char B[30];
+    strcpy(B,A);
+    puts(B);
+    return 0;
+}
+
+P SOMA SHNAKR REDDY
+
+
+=== Code Execution Successful ===
+ 
+STRING COMBINEDING:-
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+   char str1[100] = "WE ARE LEARNING ", 
+        str2[] = "C PROGRAMMING";
+strcat(str1, str2);
+puts(str1);
+return 0;
+}
+
+WE ARE LEARNING C PROGRAMMING
+
+
+=== Code Execution Successful ===
