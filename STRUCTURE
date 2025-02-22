@@ -1,1 +1,50 @@
+#include<stdio.h>
+#include<string.h>
+struct student
+{
+    char NAME[24];
+    int REGNO;
+    float MARKS;
+}s1,s2,s3;
+int main()
+{
+    strcpy(s1.NAME,"P SOMA SHANKAR REDDY");
+    s1.REGNO=192465066;
+    s1.MARKS=85.99;
+    
+    strcpy(s2.NAME,"N VINSENT");
+    s2.REGNO=192425202;
+    s2.MARKS=99.99;
+    
+    strcpy(s3.NAME,"A THRI LOKESH");
+    s3.REGNO=192456321;
+    s3.MARKS=98.99;
 
+  printf("STUDENT NAME : %s\n",s1.NAME);
+  printf("REGISTRATION NO : %d\n",s1.REGNO) ; 
+  printf("MARKS : %.2f\n",s1.MARKS);
+  
+  printf("STUDENT NAME : %s\n",s2.NAME);
+  printf("REGISTRATION NO : %d\n",s2.REGNO) ; 
+  printf("MARKS : %.2f\n",s2.MARKS);
+  
+  printf("STUDENT NAME : %s\n",s3.NAME);
+  printf("REGISTRATION NO : %d\n",s3.REGNO) ; 
+  printf("MARKS : %.2f\n",s3.MARKS);
+  
+return 0;
+}
+
+
+STUDENT NAME : P SOMA SHANKAR REDDY
+REGISTRATION NO : 192465066
+MARKS : 85.99
+STUDENT NAME : N VINSENT
+REGISTRATION NO : 192425202
+MARKS : 99.99
+STUDENT NAME : A THRI LOKESH
+REGISTRATION NO : 192456321
+MARKS : 98.99
+
+
+=== Code Execution Successful ===
