@@ -48,3 +48,42 @@ MARKS : 98.99
 
 
 === Code Execution Successful ===
+
+
+input:-
+
+#include<stdio.h>
+#include<string.h>
+struct Book 
+
+{
+    char bookname[100];
+    char bookauthor[50];
+    int pageNo;
+    float price;
+    
+}
+b1;
+int main()
+{
+strcpy(b1.bookname,"C-PROGRAMMING");
+strcpy(b1.bookauthor,"DENNIS_RITCHE");
+ b1.pageNo= 255;
+ b1.price=50.00;
+ 
+printf("BOOK NAME : %s\n",b1.bookname);
+printf("BOOK AUTHOR : %s\n",b1.bookauthor);
+printf("PAGE NO : %d\n",b1.pageNo);
+printf("PRICE : %.2f\n",b1.price);
+return 0;
+}
+
+
+output:-
+
+BOOK NAME : C-PROGRAMMING
+BOOK AUTHOR : DENNIS_RITCHE
+PAGE NO : 255
+PRICE : 50.00
+
+
