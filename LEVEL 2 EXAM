@@ -52,3 +52,30 @@ int main()
 12	56	78	94	16	96	54	32	52	81	21	66	44	89	11	46	39	23	41	75	
 
 === Code Execution Successful ===
+
+FINDING LENGTH OF THE STRING WITHOUT USING BUILT IN STRING FUNCTIONS:-
+
+#include <stdio.h>
+int stringLength(char str[]) 
+{
+    int length = 0;
+    while (str[length] != '\0') {
+        length++;
+    }
+    return length;
+}
+int main() 
+{
+    char str[100];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    int length = stringLength(str);
+    printf("The length of the string is: %d\n", length);
+    return 0;
+}
+
+Enter a string: P SOMA SHANKAR REDDY
+The length of the string is: 21
+
+
+=== Code Execution Successful ===
