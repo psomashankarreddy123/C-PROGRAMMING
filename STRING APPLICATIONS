@@ -1,4 +1,5 @@
-Reverse a String
+Reverse a String :-
+
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -15,21 +16,8 @@ str[j] = c;
 printf("Reversed String: %s", str);
 }
 
+Isograms :-
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Isograms
 #include<stdio.h>
 #include <string.h>
 int main()
@@ -50,17 +38,8 @@ int main()
  }
 }
 
+Anagram :-
 
-
-
-
-
-
-
-
-
-
-Anagram
 #include<stdio.h>
 #include <string.h>
 int main()
@@ -103,11 +82,8 @@ int main()
  printf("Given Strings are anagram ");
 }
 
+Palindrome using String :-
 
-
-
-
-Palindrome using String
 #include <stdio.h>
 #include<string.h>
 int main()
@@ -134,10 +110,8 @@ printf("%s is a palindrome",string);
  return 0;
 }
 
+Find the Frequency of a Character :-
 
-
-
-Find the Frequency of a Character
 #include <stdio.h>
 int main() {
     char str[100]="Congratulation", ch;
@@ -155,19 +129,8 @@ int main() {
     return 0;
 }
 
+Program to Check Vowel or consonant :-
 
-
-
-
-
-
-
-
-
-
-
-
-Program to Check Vowel or consonant
 #include <stdio.h>
 int main() {
     char c;
