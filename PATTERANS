@@ -49,6 +49,63 @@ return 0;
 
 === Code Execution Successful ===
 
+FLOYD'S TRIANGLE:-
+
+#include <stdio.h> 
+int main() 
+{ 
+int rows = 4,n=1,i,j; 
+for (int i = 0; i < rows; i++) 
+{ 
+for (int j = 0; j <= i; j++) 
+{ 
+printf("%d ", n++); 
+} 
+printf("\n"); 
+} 
+return 0; 
+}
+
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+
+
+=== Code Execution Successful ===
+
+PASCAL'S TRIANGLE :-
+
+#include <stdio.h> 
+int main() 
+{ 
+int rows = 5,c=1,i,j,k; 
+for (i = 1; i <= rows; i++) 
+{ 
+for (j = 0; j < rows - i; j++) 
+{ 
+printf(" "); 
+}
+int C = 1; 
+for (k = 1; k <= i; k++) 
+{ 
+printf("%d ", C); 
+C = C * (i - k) / k; 
+} 
+printf("\n"); 
+} 
+return 0; 
+}
+
+    1 
+   1 1 
+  1 2 1 
+ 1 3 3 1 
+1 4 6 4 1 
+
+
+=== Code Execution Successful ===
+
 DIMOND PATTEREN :-
 
 #include <stdio.h> 
