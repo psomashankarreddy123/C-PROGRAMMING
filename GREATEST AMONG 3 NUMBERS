@@ -26,3 +26,50 @@ Greatest number: 9
 
 
 === Code Execution Successful ===
+
+
+#include <stdio.h>
+int main() {
+    int n, num, max;
+
+    // Input the count of numbers
+    printf("Enter the total numbers: ");
+    scanf("%d", &n);
+
+    // Ensure there is at least one number
+    if (n <= 1) {
+        printf("Invalid input! Enter at least two numbers.\n");
+        return 1;
+    }
+
+    // Input first number and assume it's the largest
+    printf("Enter number 1: ");
+    scanf("%d", &max);
+
+    // Loop through remaining numbers
+    for (int i = 2; i <= n; i++) {
+        printf("Enter number %d: ", i);
+        scanf("%d", &num);
+
+        if (num > max) {
+            max = num;  // Update maximum
+        }
+    }
+
+    // Output result
+    printf("Greatest number: %d\n", max);
+
+    return 0;
+}
+
+
+Enter the total numbers: 5
+Enter number 1: 1
+Enter number 2: 7
+Enter number 3: 9
+Enter number 4: 6
+Enter number 5: 66
+Greatest number: 66
+
+
+=== Code Execution Successful ===
