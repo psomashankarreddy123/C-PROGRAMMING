@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() {
+    int a,b,c;
+
+    // Input three numbers
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    // Check for the greatest number
+    if (a >= b && a >= c) {
+        printf("Greatest number: %d\n", a);
+    } else if (b >= a && b >= c) {
+        printf("Greatest number: %d\n", b);
+    } else {
+        printf("Greatest number: %d\n", c);
+    }
+
+    return 0;
+}
+
+
+Enter three numbers: 1
+5
+9
+Greatest number: 9
+
+
+=== Code Execution Successful ===
